@@ -1,4 +1,4 @@
-
+$(function(){
 
 	// 详情信息tab内容切换
 	$('.info-detail-wrap .info-tab li').each(function(i){
@@ -340,5 +340,5 @@
 
 
     }
-
+})
 

@@ -1,9 +1,4 @@
-requirejs.config({
-	paths: {
-		"jquery" : "../vendor/jquery/jquery.min"
-	}
-});
-requirejs(["jquery"],function($){
+$(function(){
 	//点击菜单效果
 	$(".help-subbox dt").unbind('click').click(function(){
 		var dl=$(this).parent("dl");

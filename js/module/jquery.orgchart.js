@@ -17,8 +17,7 @@
  * http://www.opensource.org/licenses/MIT
  */
 'use strict';
-define(["jquery"], function ($) {
-  (function(factory) {
+$(function(factory) {
     if (typeof module === 'object' && typeof module.exports === 'object') {
       factory(require('jquery'), window, document);
     } else {
@@ -945,4 +944,3 @@ define(["jquery"], function ($) {
     }
 
   }));
-})

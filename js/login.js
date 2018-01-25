@@ -1,9 +1,4 @@
-requirejs.config({
-    paths: {
-        "jquery" : "../vendor/jquery/jquery.min"
-    }
-});
-requirejs(["jquery"],function($){
+$(function(){
     //记住账号勾选效果
    $(".login-savepwd").unbind('click').click(function(e){
     e.stopPropagation();

@@ -1,9 +1,4 @@
-requirejs.config({
-    paths: {
-        "jquery" : "../vendor/jquery/jquery.min"
-    }
-});
-requirejs(["jquery"],function($){
+$(function(){
     // 签到弹框的显示和隐藏
     $('#sign-in').click(function(){
         $('#sign-time').css("display","block");
